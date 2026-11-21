@@ -1,0 +1,804 @@
+{
+  "games": [
+    {
+      "id": "drive-mad",
+      "title": "Drive Mad",
+      "category": "Racing",
+      "emoji": "🚙",
+      "players": "1 Player",
+      "status": "coming-soon",
+      "embedUrl": "",
+      "sourceUrl": "",
+      "addedAt": "2026-11-21",
+      "shortDescription": "Drive Mad is a physics-based off-road driving challenge where precision throttle control matters far more than raw speed. Players navigate elevated bridges, steep ramps, moving platforms, and fragile wooden obstacles across dozens of handcrafted stages.",
+      "overview": "Drive Mad is a physics-based off-road driving challenge where precision throttle control matters far more than raw speed. Players navigate elevated bridges, steep ramps, moving platforms, and fragile wooden obstacles across dozens of handcrafted stages.",
+      "howToPlay": "Accelerate forward across each obstacle course without flipping your vehicle upside down or falling into the water below. Tap the throttle gently before steep inclines and use reverse mid-air to level your wheels before landing.",
+      "controls": "W / D / Up / Right to accelerate, S / A / Down / Left to brake or balance",
+      "tips": "Never hold the gas pedal down blindly over sharp crests. Short bursts of acceleration keep your front wheels planted and prevent sudden backflips.",
+      "tags": [
+        "Racing",
+        "Physics",
+        "Stunts",
+        "Cars"
+      ],
+      "faq": [
+        {
+          "q": "How do you stop flipping over in Drive Mad?",
+          "a": "Feather the gas button on ramps and tap brake mid-air to tilt the nose of your truck downward before hitting the ground."
+        },
+        {
+          "q": "Does Drive Mad work on mobile browsers?",
+          "a": "Yes, Drive Mad supports touch controls on mobile browsers as well as arrow keys and WASD on desktop."
+        }
+      ]
+    },
+    {
+      "id": "drift-boss",
+      "title": "Drift Boss",
+      "category": "Racing",
+      "emoji": "🏎️",
+      "players": "1 Player",
+      "status": "coming-soon",
+      "embedUrl": "",
+      "sourceUrl": "",
+      "addedAt": "2026-11-20",
+      "shortDescription": "Drift Boss is an addictive one-button drifting game set on narrow floating sky roads filled with sharp ninety-degree corners, narrow bridges, and reward coins.",
+      "overview": "Drift Boss is an addictive one-button drifting game set on narrow floating sky roads filled with sharp ninety-degree corners, narrow bridges, and reward coins.",
+      "howToPlay": "Press and hold to steer your car to the right around corners, then release to straighten out and travel forward. Collect coins along the track to unlock heavier vehicles with better grip and earn boosters like Car Insurance.",
+      "controls": "Hold Left Mouse Button or Spacebar to drift right; release to straighten",
+      "tips": "Start your drift slightly before reaching the corner apex, especially on narrow platforms where late turns push your rear tires off the edge.",
+      "tags": [
+        "Racing",
+        "Drifting",
+        "One-Button",
+        "Arcade"
+      ],
+      "faq": [
+        {
+          "q": "What is the best upgrade in Drift Boss?",
+          "a": "Car Insurance is the most valuable booster because it saves your run immediately if you slip off the track once."
+        },
+        {
+          "q": "How many controls does Drift Boss use?",
+          "a": "Only one button—click and hold or press Spacebar to drift right, and release to go straight."
+        }
+      ]
+    },
+    {
+      "id": "smash-karts",
+      "title": "Smash Karts",
+      "category": "Action",
+      "emoji": "💥",
+      "players": "Multiplayer",
+      "status": "coming-soon",
+      "embedUrl": "",
+      "sourceUrl": "",
+      "addedAt": "2026-11-19",
+      "shortDescription": "Smash Karts is a fast-paced 3D multiplayer kart battle arena where players race around compact maps, collect mystery weapon boxes, and blast rival drivers to score points before the timer runs out.",
+      "overview": "Smash Karts is a fast-paced 3D multiplayer kart battle arena where players race around compact maps, collect mystery weapon boxes, and blast rival drivers to score points before the timer runs out.",
+      "howToPlay": "Steer your kart through item boxes to equip rockets, machine guns, mines, or invincibility shields. Eliminate opponents to climb the live match leaderboard and earn XP to customize characters and karts.",
+      "controls": "WASD or Arrow Keys to drive; Spacebar to fire picked-up weapons",
+      "tips": "Keep moving at all times and drop mines around blind corners or near weapon spawn pads where enemies predictably drive.",
+      "tags": [
+        "Action",
+        "Multiplayer",
+        "Kart Battle",
+        "3D"
+      ],
+      "faq": [
+        {
+          "q": "How do you win a match in Smash Karts?",
+          "a": "Score the highest number of eliminations within the three-minute match timer by collecting weapons and avoiding incoming fire."
+        },
+        {
+          "q": "Can you customize your kart in Smash Karts?",
+          "a": "Yes, leveling up unlocks new characters, hats, wheels, and kart skins."
+        }
+      ]
+    },
+    {
+      "id": "krunker-arena",
+      "title": "Krunker Arena",
+      "category": "Action",
+      "emoji": "🎯",
+      "players": "Multiplayer",
+      "status": "coming-soon",
+      "embedUrl": "",
+      "sourceUrl": "",
+      "addedAt": "2026-11-18",
+      "shortDescription": "Krunker Arena delivers high-speed browser first-person shooter action with distinct character classes, crisp movement mechanics, and rapid respawn rounds.",
+      "overview": "Krunker Arena delivers high-speed browser first-person shooter action with distinct character classes, crisp movement mechanics, and rapid respawn rounds.",
+      "howToPlay": "Select a weapon class suited to your playstyle—from sniper rifles to submachine guns—and battle across tight symmetrical arenas for objective control and eliminations.",
+      "controls": "WASD to move, Space to jump, Shift to crouch, Mouse to aim and shoot",
+      "tips": "Master slide-hopping by jumping and crouching rhythmically while turning to build momentum and make yourself a harder target.",
+      "tags": [
+        "Action",
+        "FPS",
+        "Multiplayer",
+        "Shooter"
+      ],
+      "faq": [
+        {
+          "q": "Why is movement speed important in Krunker Arena?",
+          "a": "Chaining jumps and crouches lets you cross sightlines faster and flank opponents before they can line up shots."
+        },
+        {
+          "q": "Does Krunker Arena require a heavy download?",
+          "a": "No, it runs directly inside modern desktop web browsers with customizable graphics settings."
+        }
+      ]
+    },
+    {
+      "id": "shell-shockers",
+      "title": "Shell Shockers",
+      "category": "Action",
+      "emoji": "🥚",
+      "players": "Multiplayer",
+      "status": "coming-soon",
+      "embedUrl": "",
+      "sourceUrl": "",
+      "addedAt": "2026-11-17",
+      "shortDescription": "Shell Shockers puts players in control of armed eggs battling across colorful 3D arenas in Free-For-All, Teams, and Captula the Spatula game modes.",
+      "overview": "Shell Shockers puts players in control of armed eggs battling across colorful 3D arenas in Free-For-All, Teams, and Captula the Spatula game modes.",
+      "howToPlay": "Pick from seven egg classes, collect ammo packs and grenades around the map, and crack rival shells before your own shell shatters.",
+      "controls": "WASD to move, Left Click to fire, R to reload, E to switch weapons",
+      "tips": "Use cover between shots and reload behind walls, as exposed reloads leave you vulnerable to rapid-fire classes.",
+      "tags": [
+        "Action",
+        "Multiplayer",
+        "Shooter",
+        "Arena"
+      ],
+      "faq": [
+        {
+          "q": "Which class is best for beginners in Shell Shockers?",
+          "a": "The Soldier class offers a balanced assault rifle that performs reliably at both close and medium range."
+        },
+        {
+          "q": "Are there multiple game modes in Shell Shockers?",
+          "a": "Yes, players can join Free-For-All, Team Deathmatch, King of the Coop, and Captula the Spatula."
+        }
+      ]
+    },
+    {
+      "id": "geometry-dash-lite",
+      "title": "Geometry Dash Lite",
+      "category": "Arcade",
+      "emoji": "🟦",
+      "players": "1 Player",
+      "status": "coming-soon",
+      "embedUrl": "",
+      "sourceUrl": "",
+      "addedAt": "2026-11-16",
+      "shortDescription": "Geometry Dash Lite is a rhythm-driven action platformer where your geometric cube automatically dashes forward through spike-filled obstacle courses synchronized to energetic electronic music.",
+      "overview": "Geometry Dash Lite is a rhythm-driven action platformer where your geometric cube automatically dashes forward through spike-filled obstacle courses synchronized to energetic electronic music.",
+      "howToPlay": "Time every jump, pad bounce, and gravity portal with split-second accuracy to reach the end of each stage without crashing into hazards.",
+      "controls": "Spacebar, Up Arrow, or Left Click to jump and fly",
+      "tips": "Listen closely to the soundtrack—most jumps and portal transitions align directly with the beat of the music.",
+      "tags": [
+        "Arcade",
+        "Rhythm",
+        "Platformer",
+        "Skill"
+      ],
+      "faq": [
+        {
+          "q": "How do you beat difficult sections in Geometry Dash Lite?",
+          "a": "Focus on memorizing obstacle patterns and syncing your taps to the background rhythm rather than reacting at the last pixel."
+        },
+        {
+          "q": "Does Geometry Dash Lite work with one button?",
+          "a": "Yes, all jumping, flying, and gravity-ring actions use a single click or key press."
+        }
+      ]
+    },
+    {
+      "id": "retro-bowl",
+      "title": "Retro Bowl",
+      "category": "Sports",
+      "emoji": "🏈",
+      "players": "1 Player",
+      "status": "coming-soon",
+      "embedUrl": "",
+      "sourceUrl": "",
+      "addedAt": "2026-11-15",
+      "shortDescription": "Retro Bowl combines classic pixel-art gridiron football gameplay with lightweight franchise management, letting you draft rookies, manage morale, and call plays on the field.",
+      "overview": "Retro Bowl combines classic pixel-art gridiron football gameplay with lightweight franchise management, letting you draft rookies, manage morale, and call plays on the field.",
+      "howToPlay": "Pull back with your mouse or finger to arc passes ahead of running receivers, dodge defenders downfield, and upgrade your stadium and coaching staff between seasons.",
+      "controls": "Mouse drag to aim passes; W/S or swipe to juke runners",
+      "tips": "Lead your wide receivers slightly ahead of their route break so they catch the ball in stride away from defensive backs.",
+      "tags": [
+        "Sports",
+        "Football",
+        "Management",
+        "Retro"
+      ],
+      "faq": [
+        {
+          "q": "How do you pass accurately in Retro Bowl?",
+          "a": "Drag backward to set power and trajectory, aiming the dotted arc slightly in front of your receiver."
+        },
+        {
+          "q": "Can you manage team salaries and drafts in Retro Bowl?",
+          "a": "Yes, between games you handle draft picks, free agents, facility upgrades, and player morale."
+        }
+      ]
+    },
+    {
+      "id": "basket-random",
+      "title": "Basket Random",
+      "category": "Sports",
+      "emoji": "🏀",
+      "players": "1–2 Players",
+      "status": "coming-soon",
+      "embedUrl": "",
+      "sourceUrl": "",
+      "addedAt": "2026-11-14",
+      "shortDescription": "Basket Random is a chaotic two-button physics basketball game where ragdoll players leap, flip, and dunk across changing courts, ball sizes, and weather conditions.",
+      "overview": "Basket Random is a chaotic two-button physics basketball game where ragdoll players leap, flip, and dunk across changing courts, ball sizes, and weather conditions.",
+      "howToPlay": "Press your jump button to launch your duo into the air and release at the peak of the jump to throw the ball toward the hoop. The first team to score five points wins.",
+      "controls": "W key (Player 1) and Up Arrow (Player 2) to jump and shoot",
+      "tips": "Stay near your own basket when defending, as a well-timed vertical leap can block high-arcing shots at the rim.",
+      "tags": [
+        "Sports",
+        "Basketball",
+        "2 Player",
+        "Physics"
+      ],
+      "faq": [
+        {
+          "q": "Can two people play Basket Random on the same keyboard?",
+          "a": "Yes, Player 1 uses W and Player 2 uses the Up Arrow key on the same device."
+        },
+        {
+          "q": "Why do players and courts change every round?",
+          "a": "Each scored basket randomizes outfits, court gravity, or ball physics to keep every point unpredictable."
+        }
+      ]
+    },
+    {
+      "id": "level-devil",
+      "title": "Level Devil",
+      "category": "Arcade",
+      "emoji": "😈",
+      "players": "1 Player",
+      "status": "coming-soon",
+      "embedUrl": "",
+      "sourceUrl": "",
+      "addedAt": "2026-11-13",
+      "shortDescription": "Level Devil looks like a minimalist retro platformer, except floors collapse, spikes slide unexpectedly, ceilings drop, and controls invert right before you reach the exit door.",
+      "overview": "Level Devil looks like a minimalist retro platformer, except floors collapse, spikes slide unexpectedly, ceilings drop, and controls invert right before you reach the exit door.",
+      "howToPlay": "Guide your character safely to the door in each room by anticipating hidden traps and reacting quickly when the stage layout shifts.",
+      "controls": "A/D or Left/Right Arrows to move; W, Up, or Space to jump",
+      "tips": "Never assume a flat floor is safe—take short test steps near gaps and watch for subtle visual cues before committing to a full sprint.",
+      "tags": [
+        "Arcade",
+        "Platformer",
+        "Troll",
+        "Reflex"
+      ],
+      "faq": [
+        {
+          "q": "Why is Level Devil so challenging?",
+          "a": "Every level introduces deceptive traps designed to subvert standard platformer expectations."
+        },
+        {
+          "q": "How many levels are in Level Devil?",
+          "a": "The game features dozens of short stages grouped into themed doors with escalating twists."
+        }
+      ]
+    },
+    {
+      "id": "subway-surfers-web",
+      "title": "Subway Runner Web",
+      "category": "Arcade",
+      "emoji": "🏃",
+      "players": "1 Player",
+      "status": "coming-soon",
+      "embedUrl": "",
+      "sourceUrl": "",
+      "addedAt": "2026-11-12",
+      "shortDescription": "Subway Runner Web is a fast-paced endless runner set across busy railway tracks where you dodge oncoming trains, leap over barriers, and collect coins and power-ups.",
+      "overview": "Subway Runner Web is a fast-paced endless runner set across busy railway tracks where you dodge oncoming trains, leap over barriers, and collect coins and power-ups.",
+      "howToPlay": "Swipe or press arrow keys to switch between three lanes, jump onto train roofs, and activate jetpacks or super sneakers to extend your high-score run.",
+      "controls": "Left/Right Arrows to switch lanes, Up to jump, Down to roll",
+      "tips": "Stay on top of train cars whenever possible, as elevated paths give you a clearer view of upcoming obstacles.",
+      "tags": [
+        "Arcade",
+        "Endless Runner",
+        "Reflex",
+        "Action"
+      ],
+      "faq": [
+        {
+          "q": "What is the safest strategy for high scores in endless runners?",
+          "a": "Prioritize lane visibility on train roofs and save hoverboards for dense, high-speed sections."
+        },
+        {
+          "q": "Does the game speed up over time?",
+          "a": "Yes, running speed gradually increases the longer you survive without crashing."
+        }
+      ]
+    },
+    {
+      "id": "moto-x3m",
+      "title": "Moto X3M",
+      "category": "Racing",
+      "emoji": "🏍️",
+      "players": "1 Player",
+      "status": "coming-soon",
+      "embedUrl": "",
+      "sourceUrl": "",
+      "addedAt": "2026-11-11",
+      "shortDescription": "Moto X3M is a high-energy dirt bike stunt racer packed with loops, explosive barrels, swinging spikes, and timed checkpoints where flips shave seconds off your finish time.",
+      "overview": "Moto X3M is a high-energy dirt bike stunt racer packed with loops, explosive barrels, swinging spikes, and timed checkpoints where flips shave seconds off your finish time.",
+      "howToPlay": "Race through obstacle-filled tracks as fast as possible while performing frontflips and backflips to earn three-star ratings on every level.",
+      "controls": "Up Arrow to accelerate, Down to brake, Left/Right to tilt bike",
+      "tips": "Each clean flip reduces your final clock by 0.5 seconds, making mid-air rotation essential for earning three stars.",
+      "tags": [
+        "Racing",
+        "Motocross",
+        "Stunts",
+        "Physics"
+      ],
+      "faq": [
+        {
+          "q": "How do you earn three stars in Moto X3M?",
+          "a": "Finish the level cleanly while performing flips on big jumps to reduce your total elapsed time."
+        },
+        {
+          "q": "Are there checkpoints in Moto X3M?",
+          "a": "Yes, green flag checkpoints save your progress mid-track if you crash."
+        }
+      ]
+    },
+    {
+      "id": "stickman-hook",
+      "title": "Stickman Hook",
+      "category": "Arcade",
+      "emoji": "🪝",
+      "players": "1 Player",
+      "status": "coming-soon",
+      "embedUrl": "",
+      "sourceUrl": "",
+      "addedAt": "2026-11-10",
+      "shortDescription": "Stickman Hook is a momentum-based swinging game where you grapple onto overhead anchor points, bounce off trampolines, and soar across the finish line.",
+      "overview": "Stickman Hook is a momentum-based swinging game where you grapple onto overhead anchor points, bounce off trampolines, and soar across the finish line.",
+      "howToPlay": "Hold the button to attach your grappling rope to the nearest hook, build forward swing momentum, and release at an upward angle to launch cleanly.",
+      "controls": "Hold Left Click or Spacebar to grapple and swing; release to launch",
+      "tips": "Release your rope just past the bottom of your swing arc to convert downward speed into maximum forward distance.",
+      "tags": [
+        "Arcade",
+        "Physics",
+        "Swinging",
+        "Skill"
+      ],
+      "faq": [
+        {
+          "q": "When should you release the grapple in Stickman Hook?",
+          "a": "Release slightly past the lowest point of your swing so your character launches upward and forward."
+        },
+        {
+          "q": "What do trampolines do in Stickman Hook?",
+          "a": "Bouncing off blue pads restores height and helps you reach higher grapple points."
+        }
+      ]
+    },
+    {
+      "id": "2048-classic",
+      "title": "2048 Classic",
+      "category": "Puzzle",
+      "emoji": "🔢",
+      "players": "1 Player",
+      "status": "coming-soon",
+      "embedUrl": "",
+      "sourceUrl": "",
+      "addedAt": "2026-11-09",
+      "shortDescription": "2048 Classic is the iconic sliding-tile number puzzle where merging matching powers of two builds your way toward the elusive 2048 tile and beyond.",
+      "overview": "2048 Classic is the iconic sliding-tile number puzzle where merging matching powers of two builds your way toward the elusive 2048 tile and beyond.",
+      "howToPlay": "Slide all tiles up, down, left, or right. Whenever two tiles with the same number collide, they merge into a single tile with double the value.",
+      "controls": "Arrow Keys or WASD to slide tiles across the 4x4 grid",
+      "tips": "Keep your highest-value tile locked in one corner and build descending chains along that edge without swiping away from your corner.",
+      "tags": [
+        "Puzzle",
+        "Numbers",
+        "Logic",
+        "Brain"
+      ],
+      "faq": [
+        {
+          "q": "What is the best strategy to reach 2048?",
+          "a": "Pick one corner for your largest tile and avoid pressing the direction that pulls it out of that corner."
+        },
+        {
+          "q": "Does the game end immediately at 2048?",
+          "a": "No, once you create the 2048 tile you can keep playing to chase 4096 or 8192."
+        }
+      ]
+    },
+    {
+      "id": "cut-the-rope-web",
+      "title": "Candy Rope Puzzle",
+      "category": "Puzzle",
+      "emoji": "🍬",
+      "players": "1 Player",
+      "status": "coming-soon",
+      "embedUrl": "",
+      "sourceUrl": "",
+      "addedAt": "2026-11-08",
+      "shortDescription": "Candy Rope Puzzle is a charming physics puzzle game where you slice suspended ropes, use air cushions, and pop floating bubbles to deliver candy to a hungry little monster.",
+      "overview": "Candy Rope Puzzle is a charming physics puzzle game where you slice suspended ropes, use air cushions, and pop floating bubbles to deliver candy to a hungry little monster.",
+      "howToPlay": "Cut ropes in the exact sequence needed to swing the candy through all three golden stars before dropping it cleanly into the creature's mouth.",
+      "controls": "Click and drag with Mouse or touch to slice ropes and pop bubbles",
+      "tips": "Plan the full swing path before making your first cut, especially in levels with timed spikes or floating bubbles.",
+      "tags": [
+        "Puzzle",
+        "Physics",
+        "Logic",
+        "Casual"
+      ],
+      "faq": [
+        {
+          "q": "How do you get three stars on every stage?",
+          "a": "Guide the candy through all three stars before it reaches the goal, using momentum and bubbles carefully."
+        },
+        {
+          "q": "Is Candy Rope Puzzle timed?",
+          "a": "Most stages let you plan at your own pace, though physics momentum requires accurate timing once a rope is cut."
+        }
+      ]
+    },
+    {
+      "id": "block-blast-puzzle",
+      "title": "Block Blast Grid",
+      "category": "Puzzle",
+      "emoji": "🧱",
+      "players": "1 Player",
+      "status": "coming-soon",
+      "embedUrl": "",
+      "sourceUrl": "",
+      "addedAt": "2026-11-07",
+      "shortDescription": "Block Blast Grid is a relaxing yet strategic block-placement puzzle where clearing full horizontal or vertical rows keeps the board open for high combo chains.",
+      "overview": "Block Blast Grid is a relaxing yet strategic block-placement puzzle where clearing full horizontal or vertical rows keeps the board open for high combo chains.",
+      "howToPlay": "Place three offered block shapes onto the 8x8 grid without running out of space. Clearing multiple lines in a single move awards bonus combo multipliers.",
+      "controls": "Drag and drop polyomino blocks onto the 8x8 board with Mouse",
+      "tips": "Always reserve a 3x3 open space on the board so large square pieces do not end your run prematurely.",
+      "tags": [
+        "Puzzle",
+        "Blocks",
+        "Strategy",
+        "Relaxing"
+      ],
+      "faq": [
+        {
+          "q": "How do you trigger combo bonuses in Block Blast Grid?",
+          "a": "Clear at least one row or column on consecutive turns or clear multiple lines with a single piece."
+        },
+        {
+          "q": "Can you rotate blocks in Block Blast Grid?",
+          "a": "No, pieces cannot be rotated, which makes planning space ahead crucial."
+        }
+      ]
+    },
+    {
+      "id": "water-sort-puzzle",
+      "title": "Color Water Sort",
+      "category": "Puzzle",
+      "emoji": "🧪",
+      "players": "1 Player",
+      "status": "coming-soon",
+      "embedUrl": "",
+      "sourceUrl": "",
+      "addedAt": "2026-11-06",
+      "shortDescription": "Color Water Sort is a clean logic-sorting puzzle where mixed layers of colored liquid must be separated until every glass tube holds a single solid color.",
+      "overview": "Color Water Sort is a clean logic-sorting puzzle where mixed layers of colored liquid must be separated until every glass tube holds a single solid color.",
+      "howToPlay": "Pour matching top colors onto each other or into empty tubes until all colors are neatly grouped without getting stuck.",
+      "controls": "Click a tube to pick up top liquid, then click another tube to pour",
+      "tips": "Empty one tube as early as possible and use it as a temporary buffer to untangle deep mixed layers.",
+      "tags": [
+        "Puzzle",
+        "Sorting",
+        "Logic",
+        "Brain"
+      ],
+      "faq": [
+        {
+          "q": "What do you do when no valid pours remain?",
+          "a": "Use the undo button or add an extra empty tube if available to free up locked colors."
+        },
+        {
+          "q": "Does Color Water Sort have a time limit?",
+          "a": "No, there is no timer, allowing you to think through every pour calmly."
+        }
+      ]
+    },
+    {
+      "id": "chess-master-online",
+      "title": "Chess Master Online",
+      "category": "Puzzle",
+      "emoji": "♟️",
+      "players": "1–2 Players",
+      "status": "coming-soon",
+      "embedUrl": "",
+      "sourceUrl": "",
+      "addedAt": "2026-11-05",
+      "shortDescription": "Chess Master Online brings classic strategic board play to your browser with adjustable AI difficulty levels and local two-player pass-and-play support.",
+      "overview": "Chess Master Online brings classic strategic board play to your browser with adjustable AI difficulty levels and local two-player pass-and-play support.",
+      "howToPlay": "Develop your knights and bishops early, control the center squares, castle your king to safety, and checkmate your opponent's king.",
+      "controls": "Click a piece to highlight legal moves, then click destination square",
+      "tips": "Avoid moving the same piece repeatedly in the opening; activate all minor pieces and connect your rooks first.",
+      "tags": [
+        "Puzzle",
+        "Chess",
+        "Board Game",
+        "Strategy"
+      ],
+      "faq": [
+        {
+          "q": "Can beginners adjust the AI strength?",
+          "a": "Yes, multiple difficulty levels make it suitable for both newcomers and experienced players."
+        },
+        {
+          "q": "Does Chess Master Online highlight legal moves?",
+          "a": "Yes, selecting any piece displays valid destination squares automatically."
+        }
+      ]
+    },
+    {
+      "id": "penalty-shootout-pro",
+      "title": "Penalty Shootout Pro",
+      "category": "Sports",
+      "emoji": "⚽",
+      "players": "1 Player",
+      "status": "coming-soon",
+      "embedUrl": "",
+      "sourceUrl": "",
+      "addedAt": "2026-11-04",
+      "shortDescription": "Penalty Shootout Pro puts you in the pressure-packed final rounds of an international tournament where every kick and goalkeeper dive decides the trophy.",
+      "overview": "Penalty Shootout Pro puts you in the pressure-packed final rounds of an international tournament where every kick and goalkeeper dive decides the trophy.",
+      "howToPlay": "Alternate between taking penalty kicks—aiming for top corners with swerve—and reading the striker's run-up to dive and save shots.",
+      "controls": "Click to set shot direction, height, and curve; click gloves to dive",
+      "tips": "Aim high into the upper corners with moderate power; shots placed near the top post are hardest for the keeper to reach.",
+      "tags": [
+        "Sports",
+        "Soccer",
+        "Football",
+        "Penalty"
+      ],
+      "faq": [
+        {
+          "q": "How do you save penalties as the goalkeeper?",
+          "a": "Watch the target indicator right before the striker kicks and click quickly to dive toward that zone."
+        },
+        {
+          "q": "Can you curve the ball in Penalty Shootout Pro?",
+          "a": "Yes, adjusting shot spin lets you bend the ball around the goalkeeper."
+        }
+      ]
+    },
+    {
+      "id": "8-ball-billiards-club",
+      "title": "8-Ball Billiards Club",
+      "category": "Sports",
+      "emoji": "🎱",
+      "players": "1–2 Players",
+      "status": "coming-soon",
+      "embedUrl": "",
+      "sourceUrl": "",
+      "addedAt": "2026-11-03",
+      "shortDescription": "8-Ball Billiards Club delivers smooth 2D top-down pool physics with cue-ball spin control, accurate angle guidelines, and solo or two-player matches.",
+      "overview": "8-Ball Billiards Club delivers smooth 2D top-down pool physics with cue-ball spin control, accurate angle guidelines, and solo or two-player matches.",
+      "howToPlay": "Pocket either solid or striped balls cleanly, line up the black 8-ball into your called pocket, and avoid scratching the cue ball.",
+      "controls": "Drag Mouse to aim cue stick, pull back to set shot power, release",
+      "tips": "Use gentle shot power on close balls so the cue ball stops in position for your next easiest angle.",
+      "tags": [
+        "Sports",
+        "Pool",
+        "Billiards",
+        "Precision"
+      ],
+      "faq": [
+        {
+          "q": "How do you control cue-ball position after a shot?",
+          "a": "Adjust shot power and apply subtle spin so the cue ball rolls into a favorable spot for your next target."
+        },
+        {
+          "q": "Can two players compete on one computer?",
+          "a": "Yes, local two-player mode lets friends alternate turns at the table."
+        }
+      ]
+    },
+    {
+      "id": "table-tennis-world",
+      "title": "Table Tennis World",
+      "category": "Sports",
+      "emoji": "🏓",
+      "players": "1 Player",
+      "status": "coming-soon",
+      "embedUrl": "",
+      "sourceUrl": "",
+      "addedAt": "2026-11-02",
+      "shortDescription": "Table Tennis World challenges your reflexes across international tournament brackets where fast top-spin rallies and sharp corner placements win sets.",
+      "overview": "Table Tennis World challenges your reflexes across international tournament brackets where fast top-spin rallies and sharp corner placements win sets.",
+      "howToPlay": "Move your paddle smoothly across the baseline, slice or drive returns toward open corners, and win eleven-point sets to advance.",
+      "controls": "Move Mouse or finger to control paddle angle, swing speed, and spin",
+      "tips": "Alternate deep cross-court drives with short angled returns to force your opponent out of position.",
+      "tags": [
+        "Sports",
+        "Ping Pong",
+        "Reflex",
+        "Tournament"
+      ],
+      "faq": [
+        {
+          "q": "How do you add spin in Table Tennis World?",
+          "a": "Swipe across the ball slightly during contact to impart side or top spin."
+        },
+        {
+          "q": "How many points win a game?",
+          "a": "Matches follow standard 11-point table tennis rules with a two-point lead required."
+        }
+      ]
+    },
+    {
+      "id": "hill-climb-racing-lite",
+      "title": "Hill Climb Overland",
+      "category": "Racing",
+      "emoji": "⛰️",
+      "players": "1 Player",
+      "status": "coming-soon",
+      "embedUrl": "",
+      "sourceUrl": "",
+      "addedAt": "2026-11-01",
+      "shortDescription": "Hill Climb Overland sends you across bumpy countryside hills, snowy ridges, and desert dunes while managing fuel canisters and vehicle suspension.",
+      "overview": "Hill Climb Overland sends you across bumpy countryside hills, snowy ridges, and desert dunes while managing fuel canisters and vehicle suspension.",
+      "howToPlay": "Drive as far as possible before running out of fuel or flipping your driver, collecting coins along the trail to upgrade engine, suspension, tires, and 4WD.",
+      "controls": "Right Arrow / D for gas; Left Arrow / A for brake and mid-air balance",
+      "tips": "Upgrade tires and suspension early—better traction prevents wheel spin on steep hills and saves valuable fuel.",
+      "tags": [
+        "Racing",
+        "Hill Climb",
+        "Physics",
+        "Upgrades"
+      ],
+      "faq": [
+        {
+          "q": "Why do you run out of fuel in Hill Climb Overland?",
+          "a": "You must reach the red fuel canisters spaced along the course before your fuel gauge empties."
+        },
+        {
+          "q": "Which upgrade should you buy first?",
+          "a": "Tires and suspension improve stability and climbing grip immediately."
+        }
+      ]
+    },
+    {
+      "id": "traffic-racer-highway",
+      "title": "Highway Traffic Racer",
+      "category": "Racing",
+      "emoji": "🚘",
+      "players": "1 Player",
+      "status": "coming-soon",
+      "embedUrl": "",
+      "sourceUrl": "",
+      "addedAt": "2026-10-31",
+      "shortDescription": "Highway Traffic Racer tests your lane-weaving reflexes on crowded multi-lane expressways where close overtakes at high speed multiply your score.",
+      "overview": "Highway Traffic Racer tests your lane-weaving reflexes on crowded multi-lane expressways where close overtakes at high speed multiply your score.",
+      "howToPlay": "Weave cleanly past trucks, buses, and commuter cars in one-way or two-way traffic modes while earning cash for faster sports cars.",
+      "controls": "Left/Right Arrows to weave lanes, Up to accelerate, Down to brake",
+      "tips": "Driving in the oncoming lane in Two-Way mode grants huge bonus points for every close pass above 100 km/h.",
+      "tags": [
+        "Racing",
+        "Endless",
+        "Highway",
+        "Cars"
+      ],
+      "faq": [
+        {
+          "q": "How do you earn bonus points in Highway Traffic Racer?",
+          "a": "Overtake traffic closely while maintaining high speed to trigger near-miss combo multipliers."
+        },
+        {
+          "q": "Are there different weather or time modes?",
+          "a": "Yes, players can race in sunny daytime, sunset, and night highway conditions."
+        }
+      ]
+    },
+    {
+      "id": "temple-tomb-escape",
+      "title": "Tomb Mask Escape",
+      "category": "Arcade",
+      "emoji": "🎭",
+      "players": "1 Player",
+      "status": "coming-soon",
+      "embedUrl": "",
+      "sourceUrl": "",
+      "addedAt": "2026-10-30",
+      "shortDescription": "Tomb Mask Escape is an arcade labyrinth game where your character dashes from wall to wall in a single burst, collecting dots before rising hazards catch up.",
+      "overview": "Tomb Mask Escape is an arcade labyrinth game where your character dashes from wall to wall in a single burst, collecting dots before rising hazards catch up.",
+      "howToPlay": "Navigate vertical neon mazes filled with spike traps, dart shooters, and teleporters while grabbing every golden dot and star.",
+      "controls": "Arrow Keys or WASD to dash wall-to-wall through neon mazes",
+      "tips": "Look two or three turns ahead before dashing, because your character will not stop moving until hitting a solid wall.",
+      "tags": [
+        "Arcade",
+        "Maze",
+        "Retro",
+        "Fast-Paced"
+      ],
+      "faq": [
+        {
+          "q": "Why doesn't the character stop mid-corridor?",
+          "a": "Movement works on wall-to-wall slides, turning every corridor intersection into a quick puzzle."
+        },
+        {
+          "q": "What happens if you hesitate too long?",
+          "a": "Rising energy waves from the bottom of the maze push you to keep moving upward."
+        }
+      ]
+    },
+    {
+      "id": "zombie-derby-survival",
+      "title": "Zombie Road Survival",
+      "category": "Action",
+      "emoji": "🧟",
+      "players": "1 Player",
+      "status": "coming-soon",
+      "embedUrl": "",
+      "sourceUrl": "",
+      "addedAt": "2026-10-29",
+      "shortDescription": "Zombie Road Survival blends side-scrolling vehicle physics with post-apocalyptic upgrades as you smash through barricades and undead hordes to reach safe checkpoints.",
+      "overview": "Zombie Road Survival blends side-scrolling vehicle physics with post-apocalyptic upgrades as you smash through barricades and undead hordes to reach safe checkpoints.",
+      "howToPlay": "Drive as far as your fuel tank allows, earn cash from distance and obstacles smashed, and reinforce your vehicle with armor, larger tanks, and roof boosters.",
+      "controls": "WASD or Arrow Keys to drive and balance; Spacebar for roof boost",
+      "tips": "Save your nitro boost for steep hills or thick wooden barricades so you do not lose forward momentum.",
+      "tags": [
+        "Action",
+        "Zombies",
+        "Cars",
+        "Upgrades"
+      ],
+      "faq": [
+        {
+          "q": "Do you finish a stage on the first run?",
+          "a": "No, each run earns cash for upgrades that let your vehicle push farther until reaching the final safe zone."
+        },
+        {
+          "q": "What is the most important upgrade?",
+          "a": "Fuel tank capacity and engine power directly extend how far you can travel per run."
+        }
+      ]
+    },
+    {
+      "id": "ninja-fruit-slice",
+      "title": "Blade Fruit Frenzy",
+      "category": "Arcade",
+      "emoji": "🍉",
+      "players": "1 Player",
+      "status": "coming-soon",
+      "embedUrl": "",
+      "sourceUrl": "",
+      "addedAt": "2026-10-28",
+      "shortDescription": "Blade Fruit Frenzy is a brisk arcade reflex game where tossing watermelons, pineapples, and oranges into the air invites sweeping multi-fruit combo slices.",
+      "overview": "Blade Fruit Frenzy is a brisk arcade reflex game where tossing watermelons, pineapples, and oranges into the air invites sweeping multi-fruit combo slices.",
+      "howToPlay": "Swipe across flying fruit to score points, chain three or more fruits in a single slash for combo bonuses, and avoid black bombs at all costs.",
+      "controls": "Click and drag Mouse or swipe finger across fruit; avoid bombs",
+      "tips": "Wait until rising fruits reach the peak of their arc where they hang momentarily, making multi-fruit combos much easier.",
+      "tags": [
+        "Arcade",
+        "Slicing",
+        "Reflex",
+        "Casual"
+      ],
+      "faq": [
+        {
+          "q": "How do you get combo bonuses in Blade Fruit Frenzy?",
+          "a": "Slice three or more pieces of fruit in one continuous swipe without hitting a bomb."
+        },
+        {
+          "q": "How many missed fruits end the game?",
+          "a": "Letting three un-sliced fruits drop off the bottom of the screen ends your run."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0f0e">
+  <title>Play Game — Appigo</title>
+  <meta name="description" content="Play free online browser games on Appigo with controls, tips, and guides.">
+  <meta name="robots" content="index, follow">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/game.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="Appigo home">
+      <span class="brand-mark">A</span>
+      <span>appi<span class="brand-accent">go</span></span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="/">Home</a>
+      <a href="/#categories">Categories</a>
+      <a href="/#new-games">New games</a>
+      <a href="/about.html">About</a>
+    </nav>
+    <div class="header-actions">
+      <a class="button button-small button-outline" href="/">← All games</a>
+    </div>
+  </header>
+
+  <main class="game-page">
+    <div class="breadcrumbs">
+      <a href="/">Home</a>
+      <span>/</span>
+      <a href="/#categories" id="crumb-category">Games</a>
+      <span>/</span>
+      <span id="crumb-title">Game</span>
+    </div>
+
+    <div class="game-layout">
+      <section class="player-column">
+        <div class="player-shell" id="player-shell">
+          <div class="player-placeholder" id="player-placeholder">
+            <div class="placeholder-icon" id="placeholder-icon">🎮</div>
+            <h2 id="placeholder-heading">Game embed pending verification</h2>
+            <p id="placeholder-text">Add an authorized third-party embed URL in <code>/data/games.json</code> and set <code>"status": "ready"</code> to launch the playable frame.</p>
+          </div>
+          <iframe
+            id="game-frame"
+            title="Game player"
+            allow="fullscreen; autoplay; gamepad; clipboard-read; clipboard-write"
+            allowfullscreen
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+            class="hidden"></iframe>
+        </div>
+
+        <div class="player-toolbar">
+          <div class="player-status">
+            <span class="live-dot"></span>
+            <span id="player-label">Ready</span>
+          </div>
+          <div class="player-actions">
+            <a class="button button-small button-outline hidden" id="open-source" target="_blank" rel="noopener noreferrer">Official source ↗</a>
+            <button class="button button-small button-primary" id="fullscreen-button" type="button">⛶ Fullscreen</button>
+          </div>
+        </div>
+
+        <article class="game-description panel">
+          <p class="eyebrow" id="game-eyebrow">GAME GUIDE & OVERVIEW</p>
+          <h1 id="game-title">Loading game…</h1>
+          <div id="game-sections"></div>
+          <div class="tag-row" id="game-tags"></div>
+        </article>
+      </section>
+
+      <aside class="game-sidebar">
+        <div class="panel">
+          <p class="eyebrow">GAME DETAILS</p>
+          <div class="detail-row"><span>Category</span><strong id="game-category">—</strong></div>
+          <div class="detail-row"><span>Mode</span><strong id="game-players">Single Player</strong></div>
+          <div class="detail-row"><span>Controls</span><strong id="game-controls">Keyboard / Mouse</strong></div>
+          <div class="detail-row"><span>Platform</span><strong>Web Browser</strong></div>
+        </div>
+
+        <div class="ad-slot" aria-label="Advertisement">
+          <span>ADVERTISEMENT</span>
+          <p>Compliant ad unit slot ready for AdSense or approved ad networks.</p>
+        </div>
+      </aside>
+    </div>
+
+    <section class="games-section related-section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">KEEP PLAYING</p>
+          <h2>More games you might like</h2>
+        </div>
+      </div>
+      <div class="game-grid game-grid-small" id="related-grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="/"><span class="brand-mark">A</span><span>appi<span class="brand-accent">go</span></span></a>
+    <p>© <span id="year"></span> Appigo. All rights reserved.</p>
+    <div>
+      <a href="/about.html">About</a>
+      <a href="/privacy.html">Privacy</a>
+      <a href="/contact.html">Contact</a>
+    </div>
+  </footer>
+</body>
+</html>
