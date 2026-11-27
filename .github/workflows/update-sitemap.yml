@@ -8,6 +8,7 @@ on:
     paths:
       - "data/games.json"
       - "scripts/generate_sitemap.py"
+      - "scripts/generate_game_pages.js"
       - ".github/workflows/update-sitemap.yml"
 
   workflow_dispatch:
