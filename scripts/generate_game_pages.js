@@ -244,6 +244,81 @@ function makeRelatedGames(game, games) {
   `;
 }
 
+function makeHomeCards(games) {
+  const seenTitles = new Set();
+  const seenEmbeds = new Set();
+  const cards = [];
+
+  for (const game of games) {
+    const id = String(game.id || "");
+    const title = cleanText(game.title || "");
+    const embed = cleanText(game.embedUrl || "");
+    const titleKey = title.toLowerCase().replace(/[^a-z0-9]/g, "");
+
+    if (
+      game.status !== "ready" ||
+      !embed ||
+      !/^[a-z0-9][a-z0-9-]*$/i.test(id) ||
+      !titleKey ||
+      seenTitles.has(titleKey) ||
+      seenEmbeds.has(embed)
+    ) continue;
+
+    seenTitles.add(titleKey);
+    seenEmbeds.add(embed);
+
+    const index = cards.length;
+    const palettes = [
+      "linear-gradient(135deg,#24432c,#18251d)",
+      "linear-gradient(135deg,#27364b,#171f2b)",
+      "linear-gradient(135deg,#4a3024,#211915)",
+      "linear-gradient(135deg,#3a2b4b,#1e1928)",
+      "linear-gradient(135deg,#244344,#142526)"
+    ];
+
+    cards.push(`
+      <a class="game-card" href="/game/${encodeURIComponent(id)}/">
+        <div class="game-thumb" style="background:${palettes[index % palettes.length]}">
+          <span class="game-badge">PLAY NOW</span>
+          <span class="game-emoji" aria-hidden="true">${escapeHtml(game.emoji || "🎮")}</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">${escapeHtml(title)}</h3>
+          <div class="card-meta">
+            <span>${escapeHtml(game.category || "Games")}</span>
+            <span>${escapeHtml(game.players || "Browser")}</span>
+          </div>
+          <span class="card-cta">PLAY GAME →</span>
+        </div>
+      </a>
+    `);
+
+    if (cards.length >= 48) break;
+  }
+
+  return cards.join("");
+}
+
+function generateHomePage(games) {
+  const homeFile = path.join(ROOT, "index.html");
+  let html = fs.readFileSync(homeFile, "utf8");
+  const marker = '<div class="game-grid" id="game-grid" aria-live="polite"></div>';
+
+  if (!html.includes(marker)) {
+    throw new Error("Cannot find the homepage game grid for static internal links");
+  }
+
+  html = html.replace(
+    marker,
+    '<div class="game-grid" id="game-grid" aria-live="polite">' +
+      makeHomeCards(games) +
+    '</div>'
+  );
+
+  fs.writeFileSync(homeFile, html, "utf8");
+  console.log("Generated static homepage game links.");
+}
+
 function generatePage(game, games, template) {
   if (!game.id || !/^[a-z0-9][a-z0-9-]*$/i.test(game.id)) {
     console.log(`Skipped invalid ID: ${game.id || "empty"}`);
@@ -411,6 +486,8 @@ function main() {
       skipped++;
     }
   }
+
+  generateHomePage(games);
 
   console.log("\n========== APPIGO SEO BUILD ==========");
   console.log(`Total games: ${games.length}`);
