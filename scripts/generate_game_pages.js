@@ -35,15 +35,22 @@ function cleanText(value = "") {
 }
 
 function makeDescription(game, playable) {
-  const source = cleanText(
-    game.shortDescription || game.overview || ""
-  );
-
-  const text = playable
+  const source = cleanText(game.shortDescription || game.overview || "");
+  const fullText = playable
     ? `Play ${game.title} online on Appigo. ${source}`
     : `Explore the ${game.title} game guide on Appigo. ${source}`;
 
-  return text.slice(0, 160);
+  // Keep meta descriptions within a useful length without cutting words.
+  const limit = 155;
+  if (fullText.length <= limit) return fullText;
+
+  const shortened = fullText.slice(0, limit - 1);
+  const lastSpace = shortened.lastIndexOf(" ");
+  const safeText = lastSpace >= 110
+    ? shortened.slice(0, lastSpace)
+    : shortened;
+
+  return safeText.trimEnd() + "…";
 }
 
 function replaceElement(html, id, content) {
@@ -289,10 +296,11 @@ function generatePage(game, games, template) {
     `<script type="application/ld+json">${makeSchema(game, canonical, description)}</script>\n</head>`
   );
 
-  html = html.replace(
-    /<html([^>]*)>/i,
-    '<html$1 lang="en">'
-  );
+  // Normalize the document language instead of appending duplicate lang attributes.
+  html = html.replace(/<html\\b([^>]*)>/i, (_, attributes) => {
+    const cleanAttributes = attributes.replace(/\\s+lang=(["']).*?\\1/i, "");
+    return `<html${cleanAttributes} lang="en">`;
+  });
 
   html = html.replace(
     /<body([^>]*)>/i,
