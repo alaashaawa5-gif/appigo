@@ -297,8 +297,8 @@ function generatePage(game, games, template) {
   );
 
   // Normalize the document language instead of appending duplicate lang attributes.
-  html = html.replace(/<html\\b([^>]*)>/i, (_, attributes) => {
-    const cleanAttributes = attributes.replace(/\\s+lang=(["']).*?\\1/i, "");
+  html = html.replace(/<html\b([^>]*)>/i, (_, attributes) => {
+    const cleanAttributes = attributes.replace(/\s+lang=(["']).*?\1/i, "");
     return `<html${cleanAttributes} lang="en">`;
   });
 
