@@ -78,7 +78,7 @@ def main():
         title = str(game.get("title", "")).strip()
         embed = normalize_embed(game.get("embedUrl", ""))
 
-        if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", game_id):
+        if not re.fullmatch(r"[a-z0-9][a-z0-9-]*", game_id):
             continue
         if game_id in added_ids or not is_indexable(game):
             continue

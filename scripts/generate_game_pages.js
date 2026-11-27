@@ -208,7 +208,7 @@ function makeRelatedGames(game, games) {
     .filter((item) =>
       item.id !== game.id &&
       item.category === game.category &&
-      /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(item.id)
+      /^[a-z0-9][a-z0-9-]*$/i.test(item.id)
     )
     .slice(0, 4);
 
@@ -245,7 +245,7 @@ function makeRelatedGames(game, games) {
 }
 
 function generatePage(game, games, template) {
-  if (!game.id || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(game.id)) {
+  if (!game.id || !/^[a-z0-9][a-z0-9-]*$/i.test(game.id)) {
     console.log(`Skipped invalid ID: ${game.id || "empty"}`);
     return "skipped";
   }
