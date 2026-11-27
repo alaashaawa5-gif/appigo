@@ -1,3 +1,4 @@
+// Trigger a fresh Cloudflare build
 const fs = require("fs");
 const path = require("path");
 
