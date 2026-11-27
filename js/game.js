@@ -176,20 +176,20 @@ fetch("/data/games.json")
       return;
     }
 
-    // Canonical clean URL for both old and new URL formats
+    // Generated clean-URL pages already contain complete SEO metadata in static HTML.
+    // Keep the runtime fallback only for the legacy /game/?id= URL.
     const canonicalUrl = `${location.origin}${gameUrl(game.id)}`;
-    setCanonical(canonicalUrl);
+    if (!bodyId) {
+      setCanonical(canonicalUrl);
 
-    // SEO title and description
-    const pageTitle = `${game.title} — Play Free Online on Appigo`;
+      const pageTitle = `${game.title} — Play Free Online on Appigo`;
+      const metaDesc = game.shortDescription ||
+        `Play ${game.title} online for free on Appigo. Learn controls, gameplay tips, and strategies.`;
 
-    const metaDesc = game.shortDescription ||
-      `Play ${game.title} online for free on Appigo. Learn controls, gameplay tips, and strategies.`;
-
-    document.title = pageTitle;
-
-    const descTag = document.querySelector('meta[name="description"]');
-    if (descTag) descTag.content = metaDesc;
+      document.title = pageTitle;
+      const descTag = document.querySelector('meta[name="description"]');
+      if (descTag) descTag.content = metaDesc;
+    }
 
     // Breadcrumbs and game details
     const crumbTitle = document.querySelector("#crumb-title");
@@ -209,9 +209,12 @@ fetch("/data/games.json")
     const iconEl = document.querySelector("#placeholder-icon");
     if (iconEl) iconEl.textContent = game.emoji || "🎮";
 
-    // Render guide content and SEO schema
-    renderSections(game);
-    injectSchema(game, canonicalUrl);
+    // Static generated pages already contain guide content and JSON-LD.
+    // Only legacy query-string pages need these runtime fallbacks.
+    if (!bodyId) {
+      renderSections(game);
+      injectSchema(game, canonicalUrl);
+    }
 
     // Tags
     const tagsEl = document.querySelector("#game-tags");
@@ -275,42 +278,42 @@ fetch("/data/games.json")
       }
     }
 
-    // Related games
-    const sameCat = games.filter(
-      (g) => g.id !== game.id && g.category === game.category
-    );
+    // Legacy pages build related links at runtime. Generated pages keep
+    // their pre-rendered, category-matched related links from the HTML.
+    if (!bodyId) {
+      const sameCat = games.filter(
+        (g) => g.id !== game.id && g.category === game.category
+      );
+      const others = games.filter(
+        (g) => g.id !== game.id && g.category !== game.category
+      );
+      const related = [...sameCat, ...others].slice(0, 4);
+      const relatedGrid = document.querySelector("#related-grid");
 
-    const others = games.filter(
-      (g) => g.id !== game.id && g.category !== game.category
-    );
-
-    const related = [...sameCat, ...others].slice(0, 4);
-
-    const relatedGrid = document.querySelector("#related-grid");
-
-    if (relatedGrid) {
-      relatedGrid.innerHTML = related
-        .map((g, i) => `
-          <a class="game-card" href="${gameUrl(g.id)}">
-            <div class="game-thumb" style="background:${palettes[i % palettes.length]}">
-              <span class="game-badge">
-                ${g.status === "ready" && g.embedUrl ? "PLAY NOW" : "GUIDE READY"}
-              </span>
-              <span class="game-emoji" aria-hidden="true">
-                ${esc(g.emoji || "🎮")}
-              </span>
-            </div>
-            <div class="card-body">
-              <h3 class="card-title">${esc(g.title)}</h3>
-              <div class="card-meta">
-                <span>${esc(g.category || "Games")}</span>
-                <span>${esc(g.players || "Browser")}</span>
+      if (relatedGrid) {
+        relatedGrid.innerHTML = related
+          .map((g, i) => `
+            <a class="game-card" href="${gameUrl(g.id)}">
+              <div class="game-thumb" style="background:${palettes[i % palettes.length]}">
+                <span class="game-badge">
+                  ${g.status === "ready" && g.embedUrl ? "PLAY NOW" : "GUIDE READY"}
+                </span>
+                <span class="game-emoji" aria-hidden="true">
+                  ${esc(g.emoji || "🎮")}
+                </span>
               </div>
-              <span class="card-cta">VIEW GAME →</span>
-            </div>
-          </a>
-        `)
-        .join("");
+              <div class="card-body">
+                <h3 class="card-title">${esc(g.title)}</h3>
+                <div class="card-meta">
+                  <span>${esc(g.category || "Games")}</span>
+                  <span>${esc(g.players || "Browser")}</span>
+                </div>
+                <span class="card-cta">VIEW GAME →</span>
+              </div>
+            </a>
+          `)
+          .join("");
+      }
     }
   })
   .catch(() => {
